@@ -17,7 +17,7 @@
 .logo_place_header {
   position: absolute;
   top: 30px;
-  left: 60px;
+  left: 64px;
 }
 
 /* Header */
@@ -31,12 +31,14 @@
   min-height: 600px;
   max-height: 756px;
   height: 100vh;
+  overflow: hidden;
 }
 
 .header__title {
   z-index: 3;
-  width: 730px;
-  padding-left: 64px;
+  max-width: 730px;
+  margin: 0 0 0 64px;
+  padding: 0;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -47,7 +49,9 @@
   z-index: 2;
   left: 64px;
   bottom: 30px;
-  width: 388px;
+  max-width: 388px;
+  margin: 0;
+  padding: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -55,6 +59,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__square-pic {
@@ -73,6 +78,7 @@
   bottom: 0;
   width: 765px;
   height: 608px;
+  object-fit: cover;
 }
 
 /* Content */
@@ -99,6 +105,8 @@
 
 .two-columns__brief {
   width: 175px;
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -203,14 +211,14 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  height: 890px;
+  min-height: 890px;
   margin: 0;
 }
 
 .feynman__title {
   z-index: 2;
   text-align: center;
-  width: 648px;
+  max-width: 648px;
   margin: 0;
   padding: 100px 0 0;
   line-height: 1.15;
@@ -249,7 +257,7 @@
 /* Kaufmam */
 
 
-.kaufmam {
+.kaufman {
   display: flex;
   position: relative;
   overflow: hidden;
@@ -263,11 +271,12 @@
 }
 
 .section-title_theme_dark {
+  z-index: 2;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   color: white;
-  background-color: #1f1f1f;
+  /* background-color: #1f1f1f; завтра узнать как сделать нормальную тёмную тему*/
 }
 
 .section-subtitle_theme_dark {
@@ -280,7 +289,6 @@
   padding: 0;
   row-gap: 0px;
   color: white;
-  background-color: #1f1f1f;
 }
 
 .table__cell_theme_dark {
@@ -370,7 +378,7 @@
 .footer__column-links {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 0 0 16px;
   padding: 0;
   list-style-type: none;
 }
@@ -389,6 +397,7 @@
 
 .footer__social-icon {
   width: 16px;
+  height: 16px;
   padding: 0 10px 0 0;
 }
 
