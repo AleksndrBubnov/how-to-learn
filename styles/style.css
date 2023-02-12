@@ -283,6 +283,7 @@
 
 .table_theme_dark {
   padding: 0;
+  row-gap: 0;
 }
 
 .table__cell_theme_dark {
