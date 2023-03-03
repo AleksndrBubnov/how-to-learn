@@ -1,0 +1,10 @@
+.video__iframes {
+  display: flex;
+  position: relative;
+  overflow: visible;
+  max-width: 1050px;
+  height: 258px;
+  margin: 0;
+  padding: 50px 0 0;
+  column-gap: 20px;
+}

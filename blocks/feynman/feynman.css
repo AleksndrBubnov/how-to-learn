@@ -1,0 +1,10 @@
+.feynman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 890px;
+  margin: 0;
+  background-color:  #f2f2f2;
+}
