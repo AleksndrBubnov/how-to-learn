@@ -5,7 +5,3 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f2f2f2;
 }
-
-a:hover .page  {
-  transition: opacity 0.7s;
-}

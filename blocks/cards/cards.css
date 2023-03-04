@@ -3,7 +3,8 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   max-width: 920px;
-  padding: 60px 0 0;
+  margin: 0;
+  padding: 0;
   column-gap: 100px;
   row-gap: 0;
 }

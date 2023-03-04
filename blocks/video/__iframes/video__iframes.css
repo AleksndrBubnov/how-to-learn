@@ -3,8 +3,7 @@
   position: relative;
   overflow: visible;
   max-width: 1050px;
-  height: 258px;
-  margin: 0;
+  margin: 0 0 -60px;
   padding: 50px 0 0;
   column-gap: 20px;
 }
